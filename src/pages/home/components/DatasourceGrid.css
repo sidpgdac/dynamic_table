@@ -1,0 +1,31 @@
+/* tr.dx-header-row.dx-row {
+  background-color: gray;
+}
+
+.dx-datagrid-text-content.dx-text-content-alignment-left {
+  color: white;
+} */
+
+.dx-datagrid-headers {
+  background: linear-gradient(90deg, rgb(65, 105, 225), rgb(0, 191, 255)) !important;
+  color: rgb(255, 255, 255) !important;
+}
+
+.dx-datagrid-headers .dx-text-content {
+  color: rgb(255, 255, 255) !important;
+}
+
+.dx-datagrid-rowsview {
+  background-color: rgb(230, 240, 255) !important;
+}
+
+.dx-datagrid-rowsview .dx-datagrid-content {
+  color: rgb(50, 50, 50) !important;
+}
+
+.loading-spinner {
+  font-size: 24px; /* Adjust size as needed */
+  color: #007bff; /* Adjust color as needed */
+}
+
+

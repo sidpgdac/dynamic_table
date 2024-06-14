@@ -1,0 +1,26 @@
+/* home.css */
+
+.App {
+  text-align: center; /* Align content to the center */
+}
+
+.DatasourceContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center items horizontally */
+  margin-top: 50px; /* Add some top margin */
+}
+
+.DatasourceDropdown {
+  width: 200px; /* Set the width of the dropdown */
+  margin-bottom: 20px; /* Add bottom margin to create a gap */
+  background-color: #f0f0f0; /* Light gray background */
+  padding: 10px; /* Add padding for better spacing */
+  border-radius: 5px; /* Add rounded corners */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+.DatasourceGrid{
+  margin-top: 50px;
+  
+}

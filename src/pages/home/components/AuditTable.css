@@ -1,0 +1,46 @@
+/* AuditTable.css */
+
+/* Table styles */
+.table-container {
+    margin: 20px;
+    border-collapse: collapse;
+  }
+  
+  .table-container table {
+    width: 100%;
+    border: 1px solid #ddd;
+    border-collapse: collapse;
+  }
+  
+  .table-container th, .table-container td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ddd;
+  }
+  
+  /* Header styles */
+  .table-container th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  
+  /* Row hover effect */
+  .table-container tbody tr:hover {
+    background-color: #f5f5f5;
+  }
+  
+  /* Cool feature: alternating row colors */
+  .table-container tbody tr:nth-child(even) {
+    background-color: #fafafa;
+  }
+  
+  /* Cool feature: border-radius for table */
+  .table-container table {
+    border-radius: 8px;
+  }
+  
+  /* Cool feature: shadow effect */
+  .table-container table {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
